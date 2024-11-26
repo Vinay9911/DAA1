@@ -1,0 +1,21 @@
+ Theory:
+
+Merge Sort is a **divide-and-conquer** sorting algorithm that divides the array into smaller subarrays, sorts them, and then merges them back to form a sorted array. The process involves two main operations:  
+1. **Divide:** The array is repeatedly split into two halves until subarrays of size one are obtained.  
+2. **Conquer:** The subarrays are merged in sorted order using the `merge` function.  
+
+The time complexity of Merge Sort is **O(n log n)** for all cases (best, worst, and average). It is a stable sorting algorithm, meaning it preserves the relative order of equal elements. However, it requires extra space for temporary subarrays, making its space complexity **O(n)**.
+
+This program also measures the time taken to sort the array, providing insights into the efficiency of the Merge Sort algorithm for different input sizes.
+
+---
+ Learning Outcomes:
+
+1. **Understanding the Merge Sort Algorithm:**
+   - Learn how the divide-and-conquer approach splits a problem into smaller parts, solves them recursively, and combines the solutions effectively.
+
+2. **Analyzing Time Complexity:**
+   - Develop an understanding of how the algorithm performs consistently in \(O(n \log n)\) time and how to measure execution time using system functions like `clock()`.
+
+3. **Dynamic Memory Allocation:**
+   - Gain hands-on experience with dynamically allocating memory in C using `malloc` and understanding its importance in handling large datasets.
